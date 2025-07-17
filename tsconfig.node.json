@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "composite": true,                 /* Recommended for project references (like in your root tsconfig.json). */
+    "target": "ES2022",
+    "lib": ["ES2022"],                 /* Aligned with target. If you need newer features, use "ESNext". */
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* Module Resolution Enhancements (Good practice for Node.js environments too) */
+    "esModuleInterop": true,           /* Improves module interoperability, especially for CommonJS. */
+    "allowSyntheticDefaultImports": true, /* Allows default imports from modules without explicit default exports. */
+    "forceConsistentCasingInFileNames": true, /* Ensures consistent file casing. */
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "types": ["node"]                  /* Explicitly add Node.js types for build tools/server code. */
+  },
+  "include": ["vite.config.ts"],
+  "exclude": ["node_modules"]          /* Good practice to explicitly exclude node_modules. */
+}

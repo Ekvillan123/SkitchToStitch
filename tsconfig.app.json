@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                /* Recommended for modern projects, includes ES2020 features and more. */
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"], /* Align lib with target. */
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Module Resolution Enhancements for React/Library Compatibility */
+    "esModuleInterop": true,           /* Crucial: Enables better interoperability for CommonJS/ES Modules. */
+    "allowSyntheticDefaultImports": true, /* Allows default imports from modules that don't explicitly have one. */
+    "forceConsistentCasingInFileNames": true, /* Good practice: Ensures consistent file casing across OS. */
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]           /* Explicitly exclude node_modules for better performance and to prevent issues. */
+}
