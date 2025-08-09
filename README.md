@@ -1,4 +1,4 @@
-SketchToStitch: Custom T-Shirt Design Application
+# SketchToStitch: Custom T-Shirt Design Application
 Unleash your creativity, stitch by stitch!
 
 👕 Project Overview
